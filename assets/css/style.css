@@ -1,6 +1,41 @@
 /* Base CSS */
 
-@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i');
+/* @import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i'); */
+
+@font-face {
+    font-family: "muli";
+    src: url("../fonts/Muli-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "muli";
+    src: url("../fonts/Muli-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "muli";
+    src: url("../fonts/Muli-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "muli";
+    src: url("../fonts/Muli-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+
+
+
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -31,12 +66,13 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'muli', sans-serif;
     margin: 0 0 15px;
     font-weight: 700;
 }
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'muli', sans-serif;
     color: #4b4b4b;
     overflow-x: hidden;
 }
@@ -233,7 +269,6 @@ a.bold_Link {
     width: 54%;
     line-height: 1.5;
     font-style: italic;
-    font-family: 'Muli', sans-serif;
     font-weight: 600;
 }
 
@@ -335,7 +370,6 @@ a.bold_Link {
     font-size: 26px;
     line-height: 1.5;
     font-style: italic;
-    font-family: 'Muli', sans-serif;
     font-weight: 700;
 }
 
