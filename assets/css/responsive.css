@@ -109,7 +109,7 @@
         text-align: center;
     }
     .link-one, .link-two, .link-three, .link-four {
-        padding-bottom: 15px;
+        padding-bottom: 5px;
     }
     .mission h3 {
         font-size: 20px;
@@ -140,6 +140,15 @@
     .section-six h3 {
         margin: 20px auto;
         font-size: 20px;
+    }
+    .header-area {
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+    .logo p {
+        font-size: 13px;
+        padding-top: 5px;
+        margin-bottom: 0;
     }
 }
 
