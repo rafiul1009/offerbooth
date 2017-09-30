@@ -67,6 +67,17 @@
     .link-one, .link-two, .link-three, .link-four {
         padding: 0 10px;
     }
+
+    .logo img {
+        margin-left: 0;
+    }
+    .logo p.logo-text {
+        margin-left: 5px;
+    }
+    p.slogan {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
 }
 
 
