@@ -90,10 +90,10 @@ a:active {
 	border-bottom: 3px solid #f73214;
 }
 .links {
-	padding-top: 10px;
+	padding-top: 0;
 }
 .link-one img {
-	width: 14%;
+	width: auto;
 }
 .fixed {
     width: 100%;
