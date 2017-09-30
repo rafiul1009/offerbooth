@@ -85,7 +85,7 @@ a:active {
 }
 
 .header-area {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	padding-top: 20px;
 	border-bottom: 3px solid #f73214;
 }
@@ -103,15 +103,54 @@ a:active {
     z-index: 99999;
     background: #fff
 }
-.logo p {
-    display: inline-block;
-    font-size: 16px;
-    padding-left: 20px;
+.logo {
+	position: relative;
+	margin-left: 20px;
 }
-
+.logo a {
+    display: inline-block;
+    position: relative;
+    transition: .3s;
+}
 .logo img {
     margin-left: 20px;
 }
+.logo a .tooltiptext {
+    visibility: hidden;
+    opacity: 0;
+	width: 120px;
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	transition: .3s;
+    left: 26px;
+    font-size: 12px;
+}
+
+.logo a:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+p.slogan {
+	display: inline-block;
+	font-size: 16px;
+	padding-left: 30px;
+	position: absolute;
+	top: 32%;
+}
+.logo p.logo-text {
+	font-weight: 400;
+	color: #333333;
+	font-size: 11px;
+	text-align: left;
+	margin-left: 25px;
+}
+
+
 
 .link-one,
 .link-two,
@@ -147,7 +186,8 @@ a.bold_Link {
 /*GALLERY-CSS*/
 
 .gallery-section {
-    background-color: #f8f8f8;
+	background-color: #f8f8f8;
+	margin-top: 96px;
 }
 
 .gallery-image-1 {
