@@ -85,7 +85,7 @@ a:active {
 }
 
 .header-area {
-	padding-bottom: 10px;
+	padding-bottom: 8px;
 	padding-top: 20px;
 	border-bottom: 3px solid #f73214;
 }
@@ -105,7 +105,7 @@ a:active {
 }
 .logo {
 	position: relative;
-	margin-left: 20px;
+	margin-left: 17px;
 }
 .logo a {
     display: inline-block;
@@ -135,12 +135,12 @@ a:active {
     visibility: visible;
     opacity: 1;
 }
-p.slogan {
+.slogan {
 	display: inline-block;
 	font-size: 16px;
 	padding-left: 30px;
 	position: absolute;
-	top: 32%;
+	top: 28%;
 }
 .logo p.logo-text {
 	font-weight: 400;
@@ -148,6 +148,7 @@ p.slogan {
 	font-size: 11px;
 	text-align: left;
 	margin-left: 25px;
+	margin-top: 4px;
 }
 
 
@@ -165,11 +166,33 @@ p.slogan {
     font-size: 17px;
     padding: 6px;
     transition: .4s;
+    position: relative;
 }
 
-.links a:hover {
-    color: #f73214;
+
+
+
+
+.links a:hover:before {
+    width: 50px;
+    margin-left: -25px;
 }
+
+
+.links a:before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    background-color: #f13624;
+    bottom: -9px;
+    position: absolute;
+    width: 0;
+    left: 50%;
+    margin-left: 0;
+    transition: all 0.3s;
+}
+
+
 
 a.bold_Link {
     font-weight: 700;
