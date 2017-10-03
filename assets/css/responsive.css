@@ -96,6 +96,9 @@
     .gallery-section {
         margin-top: 150px;
     }
+    .links a:before {
+        bottom: -4px;
+    }
 }
 
 
@@ -212,7 +215,14 @@
         margin-bottom: 20px;
     }
     .gallery-section {
-        margin-top: 246px;
+        margin-top: 210px;
+    }
+    .links a:before {
+        bottom: -3px;
+    }
+    .links a:hover:before {
+        width: 30px;
+        margin-left: -15px;
     }
 }
 
