@@ -37,7 +37,7 @@
 .overlay {
     position: relative;
     z-index: 1;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 .overlay:after{
     background: #000 none repeat scroll 0 0;
