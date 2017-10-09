@@ -36,6 +36,9 @@
         left: auto;
         right: 40px;
     }
+    .overlay {
+        background-attachment: local;
+    }
 }
 
 
